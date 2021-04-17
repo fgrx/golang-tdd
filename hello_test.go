@@ -12,7 +12,7 @@ func TestHello(t *testing.T){
 		}
 	}
 
-	t.Run("Sayiing Hello to people",func(t *testing.T){
+	t.Run("Saying Hello to people",func(t *testing.T){
 		got:=Hello("Fabien","")
 		want := "Hello Fabien"
 
